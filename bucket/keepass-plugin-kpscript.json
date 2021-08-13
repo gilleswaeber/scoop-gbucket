@@ -1,0 +1,25 @@
+{
+    "version": "2.48.1",
+    "description": "This utility allows scripting KeePass. For details, see the KeePass Scripting Documentation at https://keepass.info/help/v2_dev/scr_index.html.",
+    "homepage": "https://keepass.info/plugins.html#kpscript",
+    "checkver": "/KPScript-([\\d.]+)\\.zip",
+    "license": "GPL-2.0-or-later",
+    "depends": "extras/keepass",
+    "url": "https://keepass.info/extensions/v2/kpscript/KPScript-2.48.1.zip",
+    "hash": "dfefc0e5839d4556bf45dbf84785a5ea8ca26f84428800c16fb24a873b96f4ba",
+    "autoupdate": {
+        "url": "https://keepass.info/extensions/v2/kpscript/KPScript-$version.zip"
+    },
+    "installer": {
+        "script": [
+            "Copy-Item \"$dir\\KPScript.exe\" \"$(appdir keepass $global)\\current\" -ErrorAction Stop",
+            "Copy-Item \"$dir\\KPScript.exe.config\" \"$(appdir keepass $global)\\current\" -ErrorAction Stop"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "Remove-Item \"$(appdir keepass $global)\\current\\KPScript.exe\" -ErrorAction SilentlyContinue",
+            "Remove-Item \"$(appdir keepass $global)\\current\\KPScript.exe.config\" -ErrorAction SilentlyContinue"
+        ]
+    }
+}
