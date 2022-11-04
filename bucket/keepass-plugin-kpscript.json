@@ -1,12 +1,12 @@
 {
-    "version": "2.51.1",
+    "version": "2.52",
     "description": "This utility allows scripting KeePass. For details, see the KeePass Scripting Documentation at https://keepass.info/help/v2_dev/scr_index.html.",
     "homepage": "https://keepass.info/plugins.html#kpscript",
     "checkver": "/KPScript-([\\d.]+)\\.zip",
     "license": "GPL-2.0-or-later",
     "depends": "extras/keepass",
-    "url": "https://keepass.info/extensions/v2/kpscript/KPScript-2.51.1.zip",
-    "hash": "85f3d10045173d05c10baf39aac559208199ce1f44002552a796602a1fdec4c8",
+    "url": "https://keepass.info/extensions/v2/kpscript/KPScript-2.52.zip",
+    "hash": "72a9faa5b0e94ed50002407f365993edb0c98dd862f17f041a7f1a33be9b9953",
     "autoupdate": {
         "url": "https://keepass.info/extensions/v2/kpscript/KPScript-$version.zip"
     },
