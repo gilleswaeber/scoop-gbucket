@@ -1,10 +1,10 @@
 {
-    "version": "1.24",
+    "version": "1.25",
     "description": "tev — The EXR Viewer",
     "homepage": "https://github.com/Tom94/tev",
     "license": "BSD-3-Clause",
-    "url": "https://github.com/Tom94/tev/releases/download/v1.24/tev.exe",
-    "hash": "9a4f2f65f3fbc1a3c1752df147d296245110f76178b246c4ef89f1b030eb86b2",
+    "url": "https://github.com/Tom94/tev/releases/download/v1.25/tev.exe",
+    "hash": "280923b9bd949c82793baa5ae900e7f9b9510f2cc8b55215cc90334c824783a5",
     "checkver": {
         "github": "https://github.com/Tom94/tev"
     },
