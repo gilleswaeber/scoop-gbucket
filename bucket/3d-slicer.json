@@ -4,7 +4,7 @@
     "homepage": "https://www.slicer.org/",
     "checkver": {
         "url": "https://download.slicer.org/",
-        "regex": "<a href=\"/(?<path>[^\"]+)\"[^>]+>\\s*<span class=\"header\">version ([\\d.]+)"
+        "regex": "<a href=\"/(?<path>[^\"]+)\"[^>]+>\\s*<span class=\"header\">(?:version )?([\\d.]+)"
     },
     "license": "https://github.com/Slicer/Slicer/blob/main/License.txt",
     "url": "https://download.slicer.org/bitstream/63f5decd8939577d9867c878#/dl.7z",
