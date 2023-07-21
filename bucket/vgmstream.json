@@ -1,9 +1,9 @@
 {
-    "version": "1831",
+    "version": "1843",
     "description": "a library for playing streamed (prerecorded) video game audio",
     "homepage": "https://vgmstream.org/",
-    "url": "https://github.com/vgmstream/vgmstream/releases/download/r1831/vgmstream-win64.zip",
-    "hash": "329B6FBC9242AA9AC922FC65654D464A80BB19722AC4A785E68910BE55206919",
+    "url": "https://github.com/vgmstream/vgmstream/releases/download/r1843/vgmstream-win64.zip",
+    "hash": "d2bbd6cf0e989c1ac76585786133b10d9e57708cbe5ed5bbc9abc53045fc26ca",
     "checkver": {
         "github": "https://github.com/vgmstream/vgmstream",
         "regex": "/releases/tag/r([\\d.]+)"
@@ -11,6 +11,6 @@
     "license": "MIT",
     "bin": "vgmstream-cli.exe",
     "autoupdate": {
-        "url": "https://github.com/Tom94/tev/releases/download/r$version/vgmstream-win64.zip"
+        "url": "https://github.com/vgmstream/vgmstream/releases/download/r$version/vgmstream-win64.zip"
     }
 }
