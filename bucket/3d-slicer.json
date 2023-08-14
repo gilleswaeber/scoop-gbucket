@@ -4,10 +4,10 @@
     "homepage": "https://www.slicer.org/",
     "checkver": {
         "url": "https://download.slicer.org/",
-        "regex": "<a href=\"/(?<path>[^\"]+)\"[^>]+>\\s*<span class=\"header\">(?:version )?([\\d.]+)"
+        "regex": "<a[^>]+download[^>]+>\\s*<span class=\"header\">(?:[vV]ersion|[vV])?\\s*([\\d.]+)</span>"
     },
     "license": "https://github.com/Slicer/Slicer/blob/main/License.txt",
-    "url": "https://download.slicer.org/bitstream/63f5decd8939577d9867c878#/dl.7z",
+    "url": "https://download.slicer.org/download?os=win&stability=release&version=5.2.2#/dl.7z",
     "hash": "690659af67605aceb122559c8ffd4f9c2248cbd95ed5180edad7d153dc15596e",
     "bin": "Slicer.exe",
     "shortcuts": [
@@ -17,6 +17,6 @@
         ]
     ],
     "autoupdate": {
-        "url": "https://download.slicer.org/$matchPath#/dl.7z"
+        "url": "https://download.slicer.org/download?os=win&stability=release&version=$version#/dl.7z"
     }
 }
