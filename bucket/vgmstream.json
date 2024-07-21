@@ -1,9 +1,9 @@
 {
-    "version": "1896",
+    "version": "1917",
     "description": "a library for playing streamed (prerecorded) video game audio",
     "homepage": "https://vgmstream.org/",
-    "url": "https://github.com/vgmstream/vgmstream/releases/download/r1896/vgmstream-win64.zip",
-    "hash": "b4207b3017e827b9b6e66e9265c886420cdff50231f108c705aba01741c85ed0",
+    "url": "https://github.com/vgmstream/vgmstream/releases/download/r1917/vgmstream-win64.zip",
+    "hash": "ed14ccb84e1d68e15a4af997cb55bf10dadac414476e8ba1ce24c95e79b82a43",
     "checkver": {
         "github": "https://github.com/vgmstream/vgmstream",
         "regex": "/releases/tag/r([\\d.]+)"

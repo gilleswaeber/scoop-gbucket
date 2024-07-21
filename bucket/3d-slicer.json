@@ -1,5 +1,5 @@
 {
-    "version": "5.6.1",
+    "version": "5.6.2",
     "description": "3D Slicer is a free, open source software for visualization, processing, segmentation, registration, and analysis of medical, biomedical, and other 3D images and meshes; and planning and navigating image-guided procedures.",
     "homepage": "https://www.slicer.org/",
     "checkver": {
@@ -7,8 +7,8 @@
         "regex": "<a[^>]+download[^>]+>\\s*<span class=\"header\">(?:[vV]ersion|[vV])?\\s*([\\d.]+)</span>"
     },
     "license": "https://github.com/Slicer/Slicer/blob/main/License.txt",
-    "url": "https://download.slicer.org/download?os=win&stability=release&version=5.6.1#/dl.7z",
-    "hash": "5dc5d3abba7f2febc9ac5b75b25add7f732cae3fb81642000a944d6e3e7f480c",
+    "url": "https://download.slicer.org/download?os=win&stability=release&version=5.6.2#/dl.7z",
+    "hash": "5fafcbba664518e61628a007298bcf68f99da34a068b940e507425e1a3aa62e2",
     "bin": "Slicer.exe",
     "shortcuts": [
         [
