@@ -1,0 +1,22 @@
+{
+    "version": "1.0.10",
+    "description": "an open source mod manager for the video game RimWorld",
+    "homepage": "https://github.com/RimSort/RimSort",
+    "url": "https://github.com/RimSort/RimSort/releases/download/v1.0.10/RimSort-v1.0.10-Windows_x86_64.zip",
+    "hash": "1941b498680c0ae07ce0257e2b036d77d7ea210fe710114074f25c3f7871e08f",
+    "checkver": {
+        "github": "https://github.com/RimSort/RimSort",
+        "regex": "/releases/tag/v([\\d.]+)"
+    },
+    "license": "GPL-3.0-only",
+    "autoupdate": {
+        "url": "https://github.com/RimSort/RimSort/releases/download/v$version/RimSort-v$version-Windows_x86_64.zip"
+    },
+    "bin": "RimSort/RimSort.exe",
+    "shortcuts": [
+        [
+            "RimSort/RimSort.exe",
+            "RimSort"
+        ]
+    ]
+}
